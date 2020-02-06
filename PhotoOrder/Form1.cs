@@ -44,9 +44,8 @@ namespace PhotoOrder
         default:
           MessageBox.Show("Please pick a size.", "Error");
           return;
-
-          txtPrice.Text = price.ToString("c");
-      } 
+      }
+      txtPrice.Text = price.ToString("c");
     }
   }
 }
