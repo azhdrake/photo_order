@@ -18,6 +18,7 @@ namespace PhotoOrder
     }
     private void Form1_Load(object sender, EventArgs e)
     {
+      // Set up the combo box
       cmbSizes.Items.Add("Small");
       cmbSizes.Items.Add("Medium");
       cmbSizes.Items.Add("Large");
@@ -31,6 +32,7 @@ namespace PhotoOrder
 
       double price;
 
+      // It's a switch statement! It's like an if statement! But it's syntactiacally slightly different! I'm not looking up how to actually spell syntactically!
       switch (itemSize){
         case "Small":
           price = 0.20;
